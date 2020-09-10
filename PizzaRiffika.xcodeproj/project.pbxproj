@@ -16,7 +16,7 @@
 		0545544D25095F600024937C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545544C25095F600024937C /* main.m */; };
 		0545545725095F610024937C /* PizzaRiffikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545545625095F610024937C /* PizzaRiffikaTests.m */; };
 		0545546225095F610024937C /* PizzaRiffikaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545546125095F610024937C /* PizzaRiffikaUITests.m */; };
-		054554752509CBC50024937C /* CPPTimeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 054554742509CBC50024937C /* CPPTimeService.m */; };
+		054554752509CBC50024937C /* CPPCustomerTimeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 054554742509CBC50024937C /* CPPCustomerTimeService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		0545545D25095F610024937C /* PizzaRiffikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaRiffikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545546125095F610024937C /* PizzaRiffikaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaRiffikaUITests.m; sourceTree = "<group>"; };
 		0545546325095F610024937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		054554732509CBC50024937C /* CPPTimeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPTimeService.h; sourceTree = "<group>"; };
-		054554742509CBC50024937C /* CPPTimeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPTimeService.m; sourceTree = "<group>"; };
+		054554732509CBC50024937C /* CPPCustomerTimeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPCustomerTimeService.h; sourceTree = "<group>"; };
+		054554742509CBC50024937C /* CPPCustomerTimeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPCustomerTimeService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +144,8 @@
 		0545546F25095FA00024937C /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				054554732509CBC50024937C /* CPPTimeService.h */,
-				054554742509CBC50024937C /* CPPTimeService.m */,
+				054554732509CBC50024937C /* CPPCustomerTimeService.h */,
+				054554742509CBC50024937C /* CPPCustomerTimeService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054554752509CBC50024937C /* CPPTimeService.m in Sources */,
+				054554752509CBC50024937C /* CPPCustomerTimeService.m in Sources */,
 				0545544225095F4D0024937C /* ViewController.m in Sources */,
 				0545543C25095F4D0024937C /* AppDelegate.m in Sources */,
 				0545544D25095F600024937C /* main.m in Sources */,
