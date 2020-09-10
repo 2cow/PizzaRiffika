@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0545543C25095F4D0024937C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545543B25095F4D0024937C /* AppDelegate.m */; };
+		0545543F25095F4D0024937C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545543E25095F4D0024937C /* SceneDelegate.m */; };
+		0545544225095F4D0024937C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545544125095F4D0024937C /* ViewController.m */; };
+		0545544525095F4D0024937C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545544325095F4D0024937C /* Main.storyboard */; };
+		0545544725095F600024937C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0545544625095F600024937C /* Assets.xcassets */; };
+		0545544A25095F600024937C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545544825095F600024937C /* LaunchScreen.storyboard */; };
+		0545544D25095F600024937C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545544C25095F600024937C /* main.m */; };
+		0545545725095F610024937C /* PizzaRiffikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545545625095F610024937C /* PizzaRiffikaTests.m */; };
+		0545546225095F610024937C /* PizzaRiffikaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545546125095F610024937C /* PizzaRiffikaUITests.m */; };
+		054554752509CBC50024937C /* CPPTimeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 054554742509CBC50024937C /* CPPTimeService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0545545325095F600024937C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0545542F25095F4C0024937C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0545543625095F4D0024937C;
+			remoteInfo = PizzaRiffika;
+		};
+		0545545E25095F610024937C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0545542F25095F4C0024937C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0545543625095F4D0024937C;
+			remoteInfo = PizzaRiffika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0545543725095F4D0024937C /* PizzaRiffika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRiffika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0545543A25095F4D0024937C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0545543B25095F4D0024937C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0545543D25095F4D0024937C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0545543E25095F4D0024937C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0545544025095F4D0024937C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0545544125095F4D0024937C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0545544425095F4D0024937C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0545544625095F600024937C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0545544925095F600024937C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0545544B25095F600024937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0545544C25095F600024937C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0545545225095F600024937C /* PizzaRiffikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaRiffikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0545545625095F610024937C /* PizzaRiffikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaRiffikaTests.m; sourceTree = "<group>"; };
+		0545545825095F610024937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0545545D25095F610024937C /* PizzaRiffikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaRiffikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0545546125095F610024937C /* PizzaRiffikaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaRiffikaUITests.m; sourceTree = "<group>"; };
+		0545546325095F610024937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054554732509CBC50024937C /* CPPTimeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPTimeService.h; sourceTree = "<group>"; };
+		054554742509CBC50024937C /* CPPTimeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPTimeService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0545543425095F4D0024937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545544F25095F600024937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545545A25095F610024937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0545542E25095F4C0024937C = {
+			isa = PBXGroup;
+			children = (
+				0545546F25095FA00024937C /* Service */,
+				0545543925095F4D0024937C /* PizzaRiffika */,
+				0545545525095F600024937C /* PizzaRiffikaTests */,
+				0545546025095F610024937C /* PizzaRiffikaUITests */,
+				0545543825095F4D0024937C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0545543825095F4D0024937C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0545543725095F4D0024937C /* PizzaRiffika.app */,
+				0545545225095F600024937C /* PizzaRiffikaTests.xctest */,
+				0545545D25095F610024937C /* PizzaRiffikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0545543925095F4D0024937C /* PizzaRiffika */ = {
+			isa = PBXGroup;
+			children = (
+				0545543A25095F4D0024937C /* AppDelegate.h */,
+				0545543B25095F4D0024937C /* AppDelegate.m */,
+				0545543D25095F4D0024937C /* SceneDelegate.h */,
+				0545543E25095F4D0024937C /* SceneDelegate.m */,
+				0545544025095F4D0024937C /* ViewController.h */,
+				0545544125095F4D0024937C /* ViewController.m */,
+				0545544325095F4D0024937C /* Main.storyboard */,
+				0545544625095F600024937C /* Assets.xcassets */,
+				0545544825095F600024937C /* LaunchScreen.storyboard */,
+				0545544B25095F600024937C /* Info.plist */,
+				0545544C25095F600024937C /* main.m */,
+			);
+			path = PizzaRiffika;
+			sourceTree = "<group>";
+		};
+		0545545525095F600024937C /* PizzaRiffikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0545545625095F610024937C /* PizzaRiffikaTests.m */,
+				0545545825095F610024937C /* Info.plist */,
+			);
+			path = PizzaRiffikaTests;
+			sourceTree = "<group>";
+		};
+		0545546025095F610024937C /* PizzaRiffikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0545546125095F610024937C /* PizzaRiffikaUITests.m */,
+				0545546325095F610024937C /* Info.plist */,
+			);
+			path = PizzaRiffikaUITests;
+			sourceTree = "<group>";
+		};
+		0545546F25095FA00024937C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				054554732509CBC50024937C /* CPPTimeService.h */,
+				054554742509CBC50024937C /* CPPTimeService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0545543625095F4D0024937C /* PizzaRiffika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0545546625095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffika" */;
+			buildPhases = (
+				0545543325095F4D0024937C /* Sources */,
+				0545543425095F4D0024937C /* Frameworks */,
+				0545543525095F4D0024937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaRiffika;
+			productName = PizzaRiffika;
+			productReference = 0545543725095F4D0024937C /* PizzaRiffika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0545545125095F600024937C /* PizzaRiffikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0545546925095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffikaTests" */;
+			buildPhases = (
+				0545544E25095F600024937C /* Sources */,
+				0545544F25095F600024937C /* Frameworks */,
+				0545545025095F600024937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0545545425095F600024937C /* PBXTargetDependency */,
+			);
+			name = PizzaRiffikaTests;
+			productName = PizzaRiffikaTests;
+			productReference = 0545545225095F600024937C /* PizzaRiffikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0545545C25095F610024937C /* PizzaRiffikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0545546C25095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffikaUITests" */;
+			buildPhases = (
+				0545545925095F610024937C /* Sources */,
+				0545545A25095F610024937C /* Frameworks */,
+				0545545B25095F610024937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0545545F25095F610024937C /* PBXTargetDependency */,
+			);
+			name = PizzaRiffikaUITests;
+			productName = PizzaRiffikaUITests;
+			productReference = 0545545D25095F610024937C /* PizzaRiffikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0545542F25095F4C0024937C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = 2cow;
+				TargetAttributes = {
+					0545543625095F4D0024937C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0545545125095F600024937C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0545543625095F4D0024937C;
+					};
+					0545545C25095F610024937C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0545543625095F4D0024937C;
+					};
+				};
+			};
+			buildConfigurationList = 0545543225095F4C0024937C /* Build configuration list for PBXProject "PizzaRiffika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0545542E25095F4C0024937C;
+			productRefGroup = 0545543825095F4D0024937C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0545543625095F4D0024937C /* PizzaRiffika */,
+				0545545125095F600024937C /* PizzaRiffikaTests */,
+				0545545C25095F610024937C /* PizzaRiffikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0545543525095F4D0024937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0545544A25095F600024937C /* LaunchScreen.storyboard in Resources */,
+				0545544725095F600024937C /* Assets.xcassets in Resources */,
+				0545544525095F4D0024937C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545545025095F600024937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545545B25095F610024937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0545543325095F4D0024937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054554752509CBC50024937C /* CPPTimeService.m in Sources */,
+				0545544225095F4D0024937C /* ViewController.m in Sources */,
+				0545543C25095F4D0024937C /* AppDelegate.m in Sources */,
+				0545544D25095F600024937C /* main.m in Sources */,
+				0545543F25095F4D0024937C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545544E25095F600024937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0545545725095F610024937C /* PizzaRiffikaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0545545925095F610024937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0545546225095F610024937C /* PizzaRiffikaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0545545425095F600024937C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0545543625095F4D0024937C /* PizzaRiffika */;
+			targetProxy = 0545545325095F600024937C /* PBXContainerItemProxy */;
+		};
+		0545545F25095F610024937C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0545543625095F4D0024937C /* PizzaRiffika */;
+			targetProxy = 0545545E25095F610024937C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0545544325095F4D0024937C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0545544425095F4D0024937C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0545544825095F600024937C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0545544925095F600024937C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0545546425095F610024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0545546525095F610024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0545546725095F610024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0545546825095F610024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0545546A25095F610024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffikaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaRiffika.app/PizzaRiffika";
+			};
+			name = Debug;
+		};
+		0545546B25095F610024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffikaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaRiffika.app/PizzaRiffika";
+			};
+			name = Release;
+		};
+		0545546D25095F610024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffikaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaRiffika;
+			};
+			name = Debug;
+		};
+		0545546E25095F610024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaRiffikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-cow.stayhome.PizzaRiffikaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaRiffika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0545543225095F4C0024937C /* Build configuration list for PBXProject "PizzaRiffika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545546425095F610024937C /* Debug */,
+				0545546525095F610024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0545546625095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545546725095F610024937C /* Debug */,
+				0545546825095F610024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0545546925095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545546A25095F610024937C /* Debug */,
+				0545546B25095F610024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0545546C25095F610024937C /* Build configuration list for PBXNativeTarget "PizzaRiffikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545546D25095F610024937C /* Debug */,
+				0545546E25095F610024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0545542F25095F4C0024937C /* Project object */;
+}
